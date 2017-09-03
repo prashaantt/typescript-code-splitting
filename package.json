@@ -1,0 +1,29 @@
+{
+  "name": "typescript-code-splitting",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/.bin/webpack-dev-server",
+    "build": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-loadable": "^4.0.4",
+    "@types/react-router": "^4.0.15",
+    "@types/react-router-dom": "^4.0.7",
+    "@types/webpack": "^3.0.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-loadable": "^4.0.5",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
